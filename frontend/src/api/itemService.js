@@ -1,5 +1,4 @@
 import api from './axiosConfig';
-
 export const getItems = () => api.get('/items');
 export const getItem = (id) => api.get(`/items/${id}`);
 export const createItem = (data) => api.post('/items', data);

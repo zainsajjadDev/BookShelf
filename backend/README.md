@@ -1,5 +1,8 @@
-# Backend - MERN CRUD
+# Backend - Book Management
 
-1. Copy `.env.example` to `.env` and set `MONGODB_URI`.
-2. Install packages: `npm install`.
-3. Run dev server: `npm run dev` (needs nodemon) or `npm start`.
+1. Copy `.env.example` to `.env` and edit if needed.
+2. Install: `npm install`.
+3. Seed sample data (optional): `npm run seed`.
+4. Start: `npm run dev`.
+
+API base: http://localhost:5000/api/items

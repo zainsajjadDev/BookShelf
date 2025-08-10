@@ -2,10 +2,11 @@ const mongoose = require('mongoose');
 
 const itemSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  description: { type: String, default: '' },
+  author: { type: String, required: true },
+  genre: { type: String, default: '' },
   price: { type: Number, default: 0 },
-  category: { type: String, default: '' },
-  imageUrl: { type: String, default: '' },
+  stock: { type: Number, default: 0 },
+  description: { type: String, default: '' },
   createdAt: { type: Date, default: Date.now }
 });
 
